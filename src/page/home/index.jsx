@@ -1,6 +1,7 @@
 import { Header } from "../../components/header";
 import { Main } from "../../components/main";
 import { Aside } from "../../components/aside";
+import { Footer } from "../../components/footer";
 import { HomeContainer, MainContainer } from "./styles";
 
 
@@ -12,6 +13,7 @@ export function Home() {
                 <Main />
                 <Aside />
             </MainContainer>
+            <Footer />
         </HomeContainer>
     )
 
